@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class BootController {
 
-    @GetMapping
+    @GetMapping("chatbot")
     public String chatbot() {
         return "chatbot";
     }
