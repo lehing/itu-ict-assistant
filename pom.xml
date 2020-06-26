@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.watson</groupId>
-	<artifactId>boot</artifactId>
+	<artifactId>chatbot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>boot</name>
-	<description>Demo project for Spring Boot</description>
+	<name>chatbot</name>
+	<description>ITU ICT Statistics Assistant</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -52,7 +52,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.watson.boot.BootApplication</mainClass>
+					<mainClass>com.watson.chatbot.ChatbotApplication</mainClass>
 				</configuration>
 
 				<executions>

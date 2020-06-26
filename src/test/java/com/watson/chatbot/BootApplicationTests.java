@@ -1,4 +1,4 @@
-package com.watson.boot;
+package com.watson.chatbot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
